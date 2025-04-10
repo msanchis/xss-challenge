@@ -1,4 +1,4 @@
-echo "# xss-challenge" >> README.md
+echo "# xss-challenge" >> Readme.md
 git init
 git add .
 git commit -m "first commit"
